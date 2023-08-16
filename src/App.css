@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-image: url("./assets/login.jpg");
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(62, 59, 59, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  height: 385px;
+  width: 270px;
+}
+.form-container-Registration {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(62, 59, 59, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  height: 366px;
+  width: 270px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 1.3rem;
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  font-weight: bold;
+}
+
+input {
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: #43b7bd;
+  color: white;
+  padding: 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(250, 204, 20);
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn {
+  font-size: large;
+}
+
+.swal2-popup {
+  text-align: center;
+}
